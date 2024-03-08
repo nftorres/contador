@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-family: monospace;
+    user-select: none;
+}
+
+.contenedor {
+    width: 350px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#titulo {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#contador {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.botonera {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.4rem 1rem;
+    background: none;
+    border-radius: 0.4rem;
+    border-style: solid;
+    font-weight: 600;
+}
+
+.btn:hover {
+    border-color: #1560bd;
+    color: #1560bd;
+    cursor: pointer;
+}
